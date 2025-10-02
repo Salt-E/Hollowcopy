@@ -522,8 +522,8 @@ label start:
     scene bg nosk_lair
     
     label more_exploration:
-    scene bg crossroads
-    $ play_area_music("crossroads")
+    scene bg blue_lake
+    $ play_area_music("resting_grounds")
     narrator "As your journey continues, you gather more fragments of the truth."
     
     "You find Quirrel again at the Blue Lake."
@@ -541,8 +541,9 @@ label start:
     
     narrator "You never see Quirrel again. His nail rests by the lake."
     
-    scene bg greenpath
-    "You pass through Greenpath again."
+    scene bg peak
+    $ play_area_music("crystal_peak")
+    "You pass through Crystal Peak again."
     "Myla is still there, mining."
     
     show myla at above_textbox_center
